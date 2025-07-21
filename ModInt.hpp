@@ -1,4 +1,4 @@
-template <uint32_t mod>
+template<const uint32_t mod>
 struct MontgomeryModInt {
     using mint = MontgomeryModInt;
     using i32 = int32_t;

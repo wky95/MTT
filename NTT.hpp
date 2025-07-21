@@ -2,7 +2,7 @@
 
 #include "ModInt.hpp"
 
-template<uint32_t mod>
+template<const uint32_t mod>
 struct NTT {
     using i32 = int32_t;
     using i64 = int64_t;
